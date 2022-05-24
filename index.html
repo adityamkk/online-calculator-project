@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+        <title>Online Calculator</title>
+    </head>
+
+    <body>
+        <button class="btn btn-enter display-mode">Dark Mode</button>
+        <div class="heading" id="heading">
+            <h1><b>CALCULATOR</b></h1>
+        </div>
+
+        <div class="output-boxes">
+            <div type="text" value="type text here" class="output-box-1" id="output-box-1"></div>
+            <div type="text" value="type text here" class="output-box-2" id="output-box-2"></div>
+        </div>
+
+        <div class="buttons">
+            <div class="row">
+                <div class="column"><button class="btn btn-op add">+</button></div>
+                <div class="column"><button class="btn btn-op subtract">-</button></div>
+                <div class="column"><button class="btn btn-op multiply">x</button></div>
+                <div class="column"><button class="btn btn-op divide">/</button></div>
+                <div class="column"><button class="btn btn-num pi">π</button></div>
+                <div class="column"><button class="btn btn-num e">e</button></div>
+                <div class="column"><button class="btn btn-enter radian" id="radian">Radian</button></div>
+                <div class="column"><button class="btn btn-enter degree" id="degree">Degree</button></div>
+            </div>
+            <div class="row">
+                <div class="column"><button class="btn btn-op exponent">^</button></div>
+                <div class="column"><button class="btn btn-op sin">sin</button></div>
+                <div class="column"><button class="btn btn-op cos">cos</button></div>
+                <div class="column"><button class="btn btn-op tan">tan</button></div>
+                <div class="column"><button class="btn btn-op asin">asin</button></div>
+                <div class="column"><button class="btn btn-op acos">acos</button></div>
+                <div class="column"><button class="btn btn-op atan">atan</button></div>
+            </div>
+            <div class="row">
+                <div class="column"><button class="btn btn-op ln">ln</button></div>
+                <div class="column"><button class="btn btn-op log">log</button></div>
+                <div class="column"><button class="btn btn-op decimal">.</button></div>
+                <div class="column"><button class="btn btn-op open-parenthesis">(</button></div>
+                <div class="column"><button class="btn btn-op close-parenthesis">)</button></div>
+                <div class="column"><button class="btn btn-op square-root">√x</button></div>
+                <div class="column"><button class="btn btn-op square">x^2</button></div>
+            </div>
+            <div class="row">
+                <div class="column"><button class="btn btn-num one">1</button></div>
+                <div class="column"><button class="btn btn-num two">2</button></div>
+                <div class="column"><button class="btn btn-num three">3</button></div>
+                <div class="column"><button class="btn btn-num four">4</button></div>
+            </div>
+            <div class="row">
+                <div class="column"><button class="btn btn-num five">5</button></div>
+                <div class="column"><button class="btn btn-num six">6</button></div>
+                <div class="column"><button class="btn btn-num seven">7</button></div>
+                <div class="column"><button class="btn btn-num eight">8</button></div>
+            </div>
+            <div class="row">
+                <div class="column"><button class="btn btn-num nine">9</button></div>
+                <div class="column"><button class="btn btn-num zero">0</button></div>
+                <div class="column"><button class="btn btn-enter backspace">clear</button></div>
+                <div class="column"><button class="btn btn-enter equals">=</button></div>
+            </div>
+        </div>
+
+        <div class="history">
+            <div class="hist-row"><button class="inp inp-0" id="inp-0"></button><button class="out out-0" id="out-0"></button></div>
+            <div class="hist-row"><button class="inp inp-1"></button><button class="out out-1"></button></div>
+            <div class="hist-row"><button class="inp inp-2"></button><button class="out out-2"></button></div>
+            <div class="hist-row"><button class="inp inp-3"></button><button class="out out-3"></button></div>
+            <div class="hist-row"><button class="inp inp-4"></button><button class="out out-4"></button></div>
+            <div class="hist-row"><button class="inp inp-5"></button><button class="out out-5"></button></div>
+            <div class="hist-row"><button class="inp inp-6"></button><button class="out out-6"></button></div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
