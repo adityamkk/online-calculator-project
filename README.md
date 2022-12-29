@@ -1,4 +1,4 @@
-# online-calculator-project
+# Online Calculator
 
 Simple online calculator application on the browser with several features.
 
